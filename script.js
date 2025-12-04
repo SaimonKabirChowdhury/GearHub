@@ -92,13 +92,11 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Download button placeholder handler
+// Download button handler
 const downloadLink = document.getElementById('download-link');
 if (downloadLink) {
     downloadLink.addEventListener('click', (e) => {
-        e.preventDefault();
-        // You can add your download link here later
-        alert('Download link will be available soon!');
+        // Let the normal link navigation happen (opens in new tab)
     });
 }
 
